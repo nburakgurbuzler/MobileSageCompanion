@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+ 
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+ 
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+ 
+    --primary: 211.2 100% 50%;
+    --primary-foreground: 210 40% 98%;
+ 
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+ 
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+ 
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+ 
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+ 
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 211.2 100% 50%;
+ 
+    --radius: 0.75rem;
+  }
+ 
+  .dark {
+    --background: 20 14.3% 4.1%;
+    --foreground: 0 0% 95%;
+ 
+    --card: 24 9.8% 10%;
+    --card-foreground: 0 0% 95%;
+ 
+    --popover: 0 0% 9%;
+    --popover-foreground: 0 0% 95%;
+ 
+    --primary: 211.2 100% 50%;
+    --primary-foreground: 210 40% 98%;
+ 
+    --secondary: 12 6.5% 15.1%;
+    --secondary-foreground: 0 0% 98%;
+ 
+    --muted: 12 6.5% 15.1%;
+    --muted-foreground: 24 5.4% 63.9%;
+ 
+    --accent: 12 6.5% 15.1%;
+    --accent-foreground: 0 0% 98%;
+ 
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 85.7% 97.3%;
+ 
+    --border: 12 6.5% 15.1%;
+    --input: 12 6.5% 15.1%;
+    --ring: 211.2 100% 50%;
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased text-left tracking-tight font-normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-weight: 450;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+
+  .gradient-chatgpt {
+    background: linear-gradient(135deg, #10a37f 0%, #0A8A6E 100%);
+  }
+  .gradient-gemini {
+    background: linear-gradient(135deg, #8E44AD 0%, #7D3C98 100%);
+  }
+  .gradient-grok {
+    background: linear-gradient(135deg, #E74C3C 0%, #C0392B 100%);
+  }
+  .gradient-claude {
+    background: linear-gradient(135deg, #3498DB 0%, #2980B9 100%);
+  }
+  .gradient-deepseek {
+    background: linear-gradient(135deg, #2E86C1 0%, #1F618D 100%);
+  }
+  .gradient-perplexity {
+    background: linear-gradient(135deg, #1ABC9C 0%, #16A085 100%);
+  }
+  .gradient-googleai {
+    background: linear-gradient(135deg, #4285F4 0%, #34A853 50%, #FBBC05 75%, #EA4335 100%);
+  }
+  .gradient-lmarena {
+    background: linear-gradient(135deg, #9B59B6 0%, #8E44AD 100%);
+  }
+  .gradient-drhoot {
+    background: linear-gradient(135deg, #27AE60 0%, #229954 100%);
+  }
+  .gradient-doctorx {
+    background: linear-gradient(135deg, #2ECC71 0%, #27AE60 100%);
+  }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

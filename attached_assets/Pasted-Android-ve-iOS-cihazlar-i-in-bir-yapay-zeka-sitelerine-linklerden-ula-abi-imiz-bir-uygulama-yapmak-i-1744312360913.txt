@@ -1,0 +1,63 @@
+Android ve iOS cihazlar için bir yapay zeka sitelerine linklerden ulaşabiğimiz bir uygulama yapmak istiyorum. Uygulamanın ismi AI Hub olacak. Uygulama bir anasayfadan ve kartlara tıkladığımızda bizi o yapay zeka sitesinin ana sayfasına atan bir tarayıcı sayfasından oluşacak. Uygulamanın ana sayfasının tasarımını aşağıya yazacağım.
+
+Genel Tasarım
+Uygulamanın ana sayfası uygulamanın küçük bir logosu, uygulamanın ismi, kategoriler, kartlar, İngilizce/Türkçe dil switchi ve Aydınlık/Karanlık mod switchinden olıuşacak. Renk şeması Apple renk şeması, fontlar yine Apple fontlarından oluşacak. Genel olarak renk ve font tasarımını sen düzenleyebilirsin, Apple tasarımına sadık kalmak şartıyla. Ayrıca metinler sola yatık olacak.
+
+Logo ve Uygulama İsmi
+Anasayfanın en üst solunda uygulamanın ikonu ve onun yanında uygulamanın ismi yazacak.
+
+Kategoriler
+Kategoriler, uygulamanın ana bölümünü oluşturacak. İçinde kartlar bulunucak. 5 tane kategori olacak: Günlük Kullanım, Yazılım/Kodlama, Görsel oluşturma, Medikal, Derin Araştırma ve Deneysel. Bu kategoriler alt alta olacak. Hangi kategoride hangi kartların olacağını sana söyleyeceğim. Kartların sırası aşağıda belirttiğim gibi olacak. Kartların içeriğini Kartlar bölümünde yazdıklarımdan anlayacaksın.
+
+Günlük Kullanım: ChatGPT, Gemini, Claude, Grok, DeepSeek
+Yazılım/Kodlama: Gemini, Google AI Studio, Grok, Claude, ChatGPT
+Görsel Oluşturma: ChatGPT, Grok
+Medikal: Dr. Hoot, DoctorX, ChatGPT
+Derin Araştırma: Gemini, Grok, Perplexity
+Deneysel: Google AI Studio, LMArena
+
+Kartlar
+Kartlar Kategorilerin içeriğini oluşturacak. Her bir karta tıklandığında aşağıya kartın bilgilerindeki linke bir tarayıcı sayfası açıp bağlanılacak. Kartlar, Kategoriler bölümünde yazıldığı gibi sırasıyla olacak ve yan yana olacaklar. Kartlar sağa sola kaydırılabilecekler. Her kartın sol üstünde o yapay zeka sitesinin küçük bir ikonu ve ikonun sağında o sitenin ismi olacak. Altında ise o sitenin açıklaması olacak. Her kartın arka planı o sitenin genel rengiyle uyumlu olacak. Şimdi kart/site bilgilerini aşağıya yazıyorum.
+
+ChatGPT
+Link: https://chatgpt.com/
+Açıklama: Herkesin bildiği ve genel kullanım için uygun olan yapay zeka modeli!
+
+Gemini
+Link: https://gemini.google.com/app
+Açıklama: Google'ın en gelişmiş yapay zeka modelleri!
+
+Grok
+Link: https://grok.com/
+Açıklama: Elon Musk'ın yapay zeka abidesi!
+
+Claude
+Link: https://claude.ai/new
+Açıklama: Yazılım ve genel kullanım için ideal!
+
+DeepSeek
+Link: https://chat.deepseek.com/
+Açıklama: Çin'in ChatGPT yok edicisi!
+
+Perplexity
+Link: https://www.perplexity.ai/
+Açıklama: Sörf ve araştırmak için çok uygun yapay zeka modeli!
+
+Google AI Studio
+Link: https://aistudio.google.com/prompts/new_chat
+Açıklama: Google'ın her modelini barındıran deneysel yapay zeka stüdyosu!
+
+LMArena
+Link: https://lmarena.ai/
+Açıklama: Tüm modelleri kısıtlı olarak ücretsiz kullanabileceğiniz yapay zeka sitesi!
+
+Dr. Hoot
+Link: https://chatgpt.com/g/g-L5NVzgenb-dr-hoot-medical-study-buddy
+Açıklama: En sevdiğim tıbbi GPT!
+
+DoctorX
+Link: https://chatgpt.com/g/g-K9cvBzhba-doctorx-medical-updated
+Açıklama: Diğer iyi tıbbi GPT!
+
+Switchler:
+Anasayfanın en altında bir İngilizce/Türkçe dil switchi ve Aydınlık/Karanlık mod switchi olacak. İkisi yan yana olacak. Tasarımlarını sen ayarlayabilirsin.
